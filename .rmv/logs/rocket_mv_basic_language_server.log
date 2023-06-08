@@ -1,0 +1,141 @@
+2023-06-08 20:03:12.892 [main] INFO  com.rs.mv.mvvs.Startup - [LSP:100101]ROCKET MV BASIC EXTENSION to start
+2023-06-08 20:03:12.937 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100102]start pip server
+2023-06-08 20:03:13.131 [main] INFO  com.rs.mv.mvvs.lsp.server.BasicLanguageServerLauncher - [LSP:100103]ROCKET MV BASIC EXTENSION start successful
+2023-06-08 20:03:13.221 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200101]load all workspace folders start
+2023-06-08 20:03:13.222 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:20010201]root uri: file:///d%3A/programming%20projects/Learning-Rust
+2023-06-08 20:03:13.223 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200103]workspace contains workspace folder: file:///d%3A/programming%20projects/Learning-Rust
+2023-06-08 20:03:13.249 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.handler.FolderHandler - [workspace:200104]workspace folder will be cached: file:///d%3A/programming%20projects/Learning-Rust
+2023-06-08 20:03:13.252 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010101]config load start
+2023-06-08 20:03:13.252 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010102]project config path is : D:/programming projects/Learning-Rust/.rmv/config
+2023-06-08 20:03:13.252 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010103]resource config path is : /
+2023-06-08 20:03:13.253 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010104]user config path is : C:/Users/Tom
+2023-06-08 20:03:13.276 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.Config - [framework:30010105]config load end
+2023-06-08 20:03:13.279 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020101]documentation load start
+2023-06-08 20:03:13.280 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.SystemDocReader - [framework:30020102]system documentation path: /documentation/UNIVERSE/
+2023-06-08 20:03:13.312 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.ProjectDocReader - [framework:30020103]project documentation brief file: D:\programming projects\Learning-Rust\.rmv\documentation\UNIVERSE\custom.json
+2023-06-08 20:03:13.314 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.reader.UserDocReader - [framework:30020104]user documentation brief file: C:\Users\Tom\documentation\UNIVERSE\custom.json
+2023-06-08 20:03:13.403 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020105]documentation load end
+2023-06-08 20:03:13.409 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030101]convertors for folder(D:/programming projects/Learning-Rust) load start
+2023-06-08 20:03:13.416 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030102]comment convertor load finish
+2023-06-08 20:03:13.686 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030103]keyword convertor load finish
+2023-06-08 20:03:13.690 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030104]operator convertor load finish
+2023-06-08 20:03:13.690 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030105]function name convertor load finish
+2023-06-08 20:03:13.691 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030106]atVariable convertor load finish
+2023-06-08 20:03:13.692 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030107]convertors for folder(D:/programming projects/Learning-Rust) load end
+2023-06-08 20:03:13.694 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.config.CapabilityConfig - [framework:30010301]capabilities file(D:/programming projects/Learning-Rust/config/capability) doesn't exist or read error, default config will take effect
+2023-06-08 20:03:13.695 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.workspace.WorkspaceManager - [workspace:200105]load all workspace folders successful
+2023-06-08 20:03:13.697 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010101]load account manager start
+2023-06-08 20:03:13.722 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.CacheAccountHandler - [client:40010102]load cache account: 
+2023-06-08 20:03:13.726 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ExternalAccountHandler - [client:40010103]load external account: 
+2023-06-08 20:03:13.921 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in Learning-Rust account
+2023-06-08 20:03:13.929 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.932 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.935 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for Learning-Rust, its period 5s 
+2023-06-08 20:03:13.936 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .git account
+2023-06-08 20:03:13.937 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.937 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.938 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for .git, its period 5s 
+2023-06-08 20:03:13.939 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-06-08 20:03:13.940 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.940 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.941 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2023-06-08 20:03:13.942 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-06-08 20:03:13.943 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.943 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.944 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2023-06-08 20:03:13.945 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in objects account
+2023-06-08 20:03:13.946 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.946 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.947 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for objects, its period 5s 
+2023-06-08 20:03:13.948 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in logs account
+2023-06-08 20:03:13.949 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.949 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.950 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for logs, its period 5s 
+2023-06-08 20:03:13.951 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in refs account
+2023-06-08 20:03:13.952 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.952 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.953 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for refs, its period 5s 
+2023-06-08 20:03:13.954 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in remotes account
+2023-06-08 20:03:13.955 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.955 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.956 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for remotes, its period 5s 
+2023-06-08 20:03:13.957 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in lmao account
+2023-06-08 20:03:13.957 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.958 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.958 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for lmao, its period 5s 
+2023-06-08 20:03:13.959 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in target account
+2023-06-08 20:03:13.960 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.960 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.961 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for target, its period 5s 
+2023-06-08 20:03:13.962 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in debug account
+2023-06-08 20:03:13.962 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.963 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.963 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for debug, its period 5s 
+2023-06-08 20:03:13.965 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in incremental account
+2023-06-08 20:03:13.965 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.966 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.967 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for incremental, its period 5s 
+2023-06-08 20:03:13.968 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in lmao-3kroynrq27c5b account
+2023-06-08 20:03:13.969 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.970 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.971 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for lmao-3kroynrq27c5b, its period 5s 
+2023-06-08 20:03:13.972 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in lmao-304ogf8k4p14i account
+2023-06-08 20:03:13.973 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.974 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.975 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for lmao-304ogf8k4p14i, its period 5s 
+2023-06-08 20:03:13.977 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in lmao-6r9cbyfimsej account
+2023-06-08 20:03:13.977 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.978 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.979 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for lmao-6r9cbyfimsej, its period 5s 
+2023-06-08 20:03:13.980 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400203]cache file auto update thread launch in .fingerprint account
+2023-06-08 20:03:13.980 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.DirsConfigReader - [client:400206]parse dir config information
+2023-06-08 20:03:13.981 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.config.MappingConfigReader - [client:400207]parse mapping config information
+2023-06-08 20:03:13.982 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.manager.U2CatalogManager - [client:400202]start a schedule task to get global/local catalog for .fingerprint, its period 5s 
+2023-06-08 20:03:13.987 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.handler.ServerAccountHandler - [client:40010104]load server account: Account{name=remotes, path=D:/programming projects/Learning-Rust/.git/refs/remotes, type=PREDICT}
+Account{name=remotes, path=D:/programming projects/Learning-Rust/.git/logs/refs/remotes, type=PREDICT}
+Account{name=.fingerprint, path=D:/programming projects/Learning-Rust/lmao/target/debug/.fingerprint, type=PREDICT}
+Account{name=refs, path=D:/programming projects/Learning-Rust/.git/logs/refs, type=PREDICT}
+Account{name=.git, path=D:/programming projects/Learning-Rust/.git, type=PREDICT}
+Account{name=debug, path=D:/programming projects/Learning-Rust/lmao/target/debug, type=PREDICT}
+Account{name=logs, path=D:/programming projects/Learning-Rust/.git/logs, type=PREDICT}
+Account{name=refs, path=D:/programming projects/Learning-Rust/.git/refs, type=PREDICT}
+Account{name=Learning-Rust, path=D:/programming projects/Learning-Rust, type=PREDICT}
+Account{name=lmao-304ogf8k4p14i, path=D:/programming projects/Learning-Rust/lmao/target/debug/incremental/lmao-304ogf8k4p14i, type=PREDICT}
+Account{name=lmao, path=D:/programming projects/Learning-Rust/lmao, type=PREDICT}
+Account{name=objects, path=D:/programming projects/Learning-Rust/.git/objects, type=PREDICT}
+Account{name=incremental, path=D:/programming projects/Learning-Rust/lmao/target/debug/incremental, type=PREDICT}
+Account{name=lmao-6r9cbyfimsej, path=D:/programming projects/Learning-Rust/lmao/target/debug/incremental/lmao-6r9cbyfimsej, type=PREDICT}
+Account{name=lmao-3kroynrq27c5b, path=D:/programming projects/Learning-Rust/lmao/target/debug/incremental/lmao-3kroynrq27c5b, type=PREDICT}
+Account{name=target, path=D:/programming projects/Learning-Rust/lmao/target, type=PREDICT}
+2023-06-08 20:03:13.988 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.account.AccountManager - [client:40010105]load account manager finish
+2023-06-08 20:03:13.989 [pool-3-thread-1] INFO  com.rs.mv.mvvs.instance.userspace.UserspaceManager - [framework:30010402]config file(C:\Users\Tom/.rmv/config) watcher launch successful
+2023-06-08 20:03:25.685 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020201]project documentation update start
+2023-06-08 20:03:25.686 [pool-3-thread-1] INFO  com.rs.mv.mvvs.rmv.documentation.BasicDocumentation - [framework:30020202]project documentation update end
+2023-06-08 20:03:25.690 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030201]convertors for folder(D:/programming projects/Learning-Rust) reload start
+2023-06-08 20:03:25.691 [pool-3-thread-1] INFO  com.rs.mv.mvvs.common.convertor.ConvertorManager - [framework:30030202]convertors for folder(D:/programming projects/Learning-Rust) load end
+2023-06-08 20:07:02.571 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:11:52.040 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:13:54.069 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:13:57.679 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:14:56.181 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:18:39.573 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:18:41.868 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:21:13.340 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:21:15.692 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:24:08.692 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:24:13.943 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:24:28.297 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:24:29.479 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:35:11.016 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:35:15.527 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:35:18.103 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:36:02.106 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:36:08.063 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:36:10.861 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:36:19.028 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:36:57.904 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:37:03.901 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:37:31.290 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:37:43.296 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:37:58.633 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 20:38:36.611 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)

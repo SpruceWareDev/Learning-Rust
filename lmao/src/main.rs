@@ -1,24 +1,34 @@
+mod menu;
 use std::io::{self, Read};
 
 struct Player{
     name: String,
     health: i16,
-    attack_damage: i8,
-    armour_level: i8
+    armour_level: i8,
+    weapon: Weapon
+}
+
+struct Weapon {
+    name: String,
+    damage: i8
 }
 
 fn main() {
-    let mut test = create_player();
-
-    println!("Hello {}!", test.name);
+    let option: i8 = menu::menu();
+    match option {
+        1 => println!("New Game Selected!"),
+        2 => println!("No Tutorial Implemented Yet!"),
+        3 => return,
+        _ => return
+    }
 }
 
 fn create_player() -> Player {
     let mut return_player = Player{
         name: "".to_string(),
-        health: 0,
-        attack_damage: 0,
-        armour_level: 0
+        health: 100,
+        armour_level: 0,
+        weapon: Weapon { name: "Fists".to_string(), damage: 2 }
     };
 
     let mut player_name = String::new();
