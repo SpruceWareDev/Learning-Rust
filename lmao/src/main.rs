@@ -30,7 +30,7 @@ fn create_player() -> Player {
         armour_level: 0,
         weapon: Weapon { name: "Fists".to_string(), damage: 2 }
     };
-
+    
     let mut player_name = String::new();
     println!("Enter the name of your charcter.");
     io::stdin().read_line(&mut player_name).expect("Failed to get input!");

@@ -139,3 +139,4 @@ Account{name=target, path=D:/programming projects/Learning-Rust/lmao/target, typ
 2023-06-08 20:37:43.296 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
 2023-06-08 20:37:58.633 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
 2023-06-08 20:38:36.611 [pool-3-thread-1] INFO  com.rs.mv.mvvs.client.catalog.from.scan.CurrentPathScanner - [client:400205]scan file in current open file directory(D:/programming projects/Learning-Rust/lmao/src)
+2023-06-08 22:49:05.877 [main] WARN  com.rs.mv.mvvs.Startup - [LSP:100104]ROCKET MV BASIC EXTENSION exited
